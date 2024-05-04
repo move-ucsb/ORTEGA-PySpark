@@ -29,7 +29,7 @@ pyspark --jars C:\engine\geoanalytics.jar ^
 
 ## Databricks Configuration
 ### Overview
-The Databricks environment is configured to optimize resource allocation dynamically according to the workload. Minimal adjustments were needed in the Databricks environment. Here are the essential settings used:
+The Databricks environment is configured to optimize resource allocation dynamically according to the workload. Minimal adjustments were needed in the Databricks environment after [installing](https://developers.arcgis.com/geoanalytics/install/databricks/) the GeoAnalytics Engine. Here are the essential settings used:
 - **Memory**: 14 GB
 - **Cores**: 4
 - **Workers**: Dynamically adjusts between 2 to 8 based on the workload.
