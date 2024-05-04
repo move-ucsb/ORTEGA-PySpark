@@ -21,6 +21,7 @@ ORTEGA-PySpark
     │   Create_PPA.ipynb
     │   Interaction_Analysis.ipynb
     │   Performace_Evaluation.ipynb
+    |   Configurations.md
     │       
 └───Result_parquet
     │   concurrent_events_All.parquet
@@ -34,8 +35,9 @@ ORTEGA-PySpark
 
 1. **Clone the Repository**: Clone or download this repository to your local computer.
 2. **Date Setup**: Download the vulture tracking data from the above link and place it in the `Data` directory.
-3. **Generate PPAs**: Open the jupyter notebook file `Create_PPA.ipynb` in the `Code` directory to view and generate PPAs from tracking data. Ensure you have installed all necessary libraries.
-4. **Run the Interaction Analysis**: Open the jupyter notebook file `Interaction_Analysis.ipynb` in the `Code` directory to run the concurrent and delayed interaction analysis. The descriptions of the output columns for "events" and "intersect_PPAs" parquet are shown in [metadata sheet](https://github.com/move-ucsb/ORTEGA-PySpark/blob/main/Result_parquet/metadata%20sheet.xlsx). 
+3. **GeoAnalytics Engine Setup**: [Install](https://developers.arcgis.com/geoanalytics/install/) and [set up](https://developers.arcgis.com/geoanalytics/install/local_mode/) GeoAnalytics Engine. The configuration setting we used is shown in [Configurations.md](https://github.com/move-ucsb/ORTEGA-PySpark/blob/main/Code/Configurations.md).
+4. **Generate PPAs**: Open the jupyter notebook file `Create_PPA.ipynb` in the `Code` directory to view and generate PPAs from tracking data. Ensure you have installed all necessary libraries.
+5. **Run the Interaction Analysis**: Open the jupyter notebook file `Interaction_Analysis.ipynb` in the `Code` directory to run the concurrent and delayed interaction analysis. The descriptions of the output columns for "events" and "intersect_PPAs" parquet are shown in [metadata sheet](https://github.com/move-ucsb/ORTEGA-PySpark/blob/main/Result_parquet/metadata%20sheet.xlsx). 
 
 ## License
 ORTEGA-PySpark is licensed under the MIT license. See the [LICENSE](https://github.com/move-ucsb/ORTEGA-PySpark/blob/main/LICENSE) file for details.
