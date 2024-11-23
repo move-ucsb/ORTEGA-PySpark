@@ -7,7 +7,7 @@ Citation info:
 >
 > Bildstein KL, Barber D, Bechard MJ, Graña Grilli M, Therrien J. (2021). Data from: [Study "Vultures Acopian Center USA GPS" (2003-2021)](https://doi.org/10.1186/s40462-021-00274-6). [Movebank Data Repository](https://doi.org/10.5441/001/1.f3qt46r2) 
 > 
-> Liu, Y., Battersby S., & Dodge, S. (under review). Scaling up time-geographic computation for movement interaction analysis.
+> Liu, Y., Battersby S., & Dodge, S. (2024). [Scaling up time-geographic computation for movement interaction analysis](https://doi.org/10.1111/tgis.13205). *Transaction in GIS*. 00: 1–17.
 
 ## Data
 
